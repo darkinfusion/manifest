@@ -132,7 +132,7 @@
   <project path="system-hardware-interfaces" name="android-system-hardware-interfaces" remote="darkinfusion" />
   <project path="system-libhidl" name="android-system-libhidl" remote="darkinfusion" />
   <project path="system-libhwbinder" name="android-system_libhwbinder" remote="darkinfusion" />
-  <project path="system-hwservicemanager" name="android-system-hwservicemanager" remote="darkinfusion" />
+  <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="superior" />
   <project path="system-netd" name="android-system-netd" remote="darkinfusion" />
   <project path="system-sepolicy" name="android-system-sepolicy" remote="darkinfusion" />
   <project path="system-vold" name="android_system-vold" remote="darkinfusion" />

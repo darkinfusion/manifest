@@ -126,6 +126,7 @@
   <project path="system-tools-dtbtool" name="android-system-tools-dtbtool" remote="darkinfusion" />
   <project path="system-tools-hidl" name="android-system-tools-hidl" remote="darkinfusion" />
   <project path="system-bt" name="android-system-bt" remote="darkinfusion" />
+  <project path="system-qcom" name="android-system-qcom" remote="darkinfusion" />
   <project path="system-core" name="android-system-core" remote="darkinfusion" />
   <project path="system-extras" name="android-system-extras" remote="darkinfusion" />
   <project path="system-media" name="android_system_media" remote="darkinfusion" />

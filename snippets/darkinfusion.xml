@@ -15,7 +15,7 @@
 		   
 
   <project path="manifest" name="manifest" remote="darkinfusion" />
-  <project path="build-make" name="android_build" remote="darkinfusion" >
+  <project path="buil/-make" name="android_build" remote="superior" >
     <copyfile src="core-root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />

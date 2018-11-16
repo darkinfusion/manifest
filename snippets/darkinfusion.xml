@@ -80,7 +80,7 @@
   />
   
   <!-- CodeAurora additions -->
-  <project path="device-qcom-sepolicy" name="android-device_qcom-sepolicy" remote="darkinfusion" />
+  <project path="device-qcom-sepolicy" name="android_device_qcom_sepolicy" remote="darkinfusion" />
   <project path="device-qcom-sepolicy-legacy" name="android-device-qcom-sepolicy-legacy" remote="darkinfusion" />
  <!-- <project path="hardware-qcom/bt-caf" name="android_hardware_qcom_bt" remote="darkinfusion" revision="pie-caf" /> -->
   <project path="hardware-qcom-audio-default" name="android-hardware-qcom-audio" remote="darkinfusion" />

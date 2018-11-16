@@ -716,8 +716,8 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Remove unused AOSP repos -->
-  <include name="snippets/remove.xml" />
+  <include name="darkinfusion/remove.xml" />
   
-  <!-- Superior OS repos -->
-  <include name="snippets/superior.xml" />				   
+  <!-- Darkinfusion OS repos -->
+  <include name="snippets/darkinfusion.xml" />				   
 </manifest>

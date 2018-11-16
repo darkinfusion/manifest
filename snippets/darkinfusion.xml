@@ -121,7 +121,7 @@
   <project path="hardware-qcom-vr" name="android-hardware-qcom-vr" remote="darkinfusion" />
 
   <!-- System Repos -->
-  <project path="system-security" name="android_system-security" remote="daRKINFUSION" />
+  <project path="system-security" name="android_system-security" remote="darkinfusion" />
   <project path="system-update_engine" name="android-system-update-engine" remote="darkinfusion" />
   <project path="system-tools-dtbtool" name="android-system-tools-dtbtool" remote="darkinfusion" />
   <project path="system-tools-hidl" name="android-system-tools-hidl" remote="darkinfusion" />

@@ -124,7 +124,7 @@
   <project path="system/security" name="android_system_security" remote="superior" />
   <project path="system-update_engine" name="android_system_update_engine" remote="darkinfusion" />
   <project path="system-tools-dtbtool" name="android_system_tools_dtbtool" remote="darkinfusion" />
-  <project path="system-tools-hidl" name="android_system_tools_hidl" remote="darkinfusion" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="superior" />
   <project path="system-bt" name="android_system_bt" remote="darkinfusion" />
   <project path="system-core" name="android_system_core" remote="darkinfusion" />
   <project path="system-extras" name="android_system_extras" remote="darkinfusion" />

@@ -160,7 +160,7 @@
   <project path="external-ntfs-3g" name="android_external_ntfs-3g" remote="darkinfusion" />
   <project path="external-openssh" name="android_external_openssh" remote="darkinfusion" />
   <project path="external-perfetto" name="android_external_perfetto" remote="darkinfusion" />
-  <project path="external-p7zip" name="android_external_p7zip" remote="darkinfusion" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="superior" />
   <project path="external-pigz" name="android_external_pigz" remote="darkinfusion" />
   <project path="external-unrar" name="android_external_unrar" remote="darkinfusion" />
   <project path="external-vim" name="android_external_vim" remote="darkinfusion" />

@@ -168,7 +168,7 @@
   <project path="external-tinycompress" name="android_external_tinycompress" remote="darkinfusion" />
   <project path="external-selinux" name="android_external_selinux" remote="darkinfusion" />
   <project path="external-toybox" name="android_external_toybox" remote="darkinfusion" />
-  <project path="external-zlib" name="android_external_zlib" remote="darkinfusion" />
+  <project path="external/zlib" name="android_external_zlib" remote="superior" />
   <project path="external-libtextclassifier" name="android_external_libtextclassifier" remote="darkinfusion" />
   <project path="external-f2fs-tools" name="android_external_f2fs-tools" remote="darkinfusion" />
 	

@@ -128,7 +128,7 @@
   <project path="system-bt" name="android-system-bt" remote="darkinfusion" />
   <project path="system-core" name="android-system-core" remote="darkinfusion" />
   <project path="system-extras" name="android-system-extras" remote="darkinfusion" />
-  <project path="system-media" name="android-system-media" remote="darkinfusion" />
+  <project path="system-media" name="android_system_media" remote="darkinfusion" />
   <project path="system-hardware-interfaces" name="android-system-hardware-interfaces" remote="darkinfusion" />
   <project path="system-libhidl" name="android-system-libhidl" remote="darkinfusion" />
   <project path="system-libhwbinder" name="android-system_libhwbinder" remote="darkinfusion" />

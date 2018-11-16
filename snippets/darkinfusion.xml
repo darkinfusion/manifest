@@ -109,7 +109,7 @@
   <project path="hardware-libhardware_legacy" name="android_hardware_libhardware_egacy" remote="darkinfusion" />
   <project path="hardware-aosp-interfaces" name="android-hardware-aosp-interfaces" remote="darkinfusion" />
   <project path="hardware-ril" name="android-hardware-ril" remote="darkinfusion" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="darkinfusion" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="superior" />
   <project path="hardware-qcom-wlan" name="android-hardware-qcom-wlan" remote="darkinfusion" />
  <!-- <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="darkinfusion" revision="pie-caf" /> -->
   <project path="hardware-qcom-camera" name="android_hardware_qcom_camera" remote="darkinfusion" />

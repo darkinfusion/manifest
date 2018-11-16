@@ -39,7 +39,7 @@
   <project path="frameworks-base" name="android-frameworks-base" remote="darkinfusion" />
   <project path="frameworks-compile-mclinker" name="android_frameworks_compile_mclinker" remote="darkinfusion" />
   <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
-  <project path="frameworks-support" name="android_frameworks_support" remote="darkinfusion" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="superior" />
   <project path="frameworks-opt-net-wifi" name="android_frameworks_opt_net_wifi" remote="darkinfusion" />
   <project path="frameworks-opt/net-ims" name="android-frameworks-opt-net-ims" remote="darkinfusion" />
   <project path="frameworks-opt/net-voip" name="android_frameworks_opt_net_voip" remote="darkinfusion" />

@@ -104,7 +104,7 @@
   <project path="system-qcom" name="android-system-qcom" remote="darkinfusion" />
   
   <!-- Hardware Repos -->
-  <project path="hardware-interfaces" name="android_hardware_interfaces" remote="darkinfusion" />
+  <project path="hardware-interfaces" name="android-hardware-interfaces" remote="darkinfusion" />
   <project path="hardware-custom-telephony" name="android_hardware_custom_telephony" remote="darkinfusion" />
   <project path="hardware-libhardware_legacy" name="android_hardware_libhardware_egacy" remote="darkinfusion" />
   <project path="hardware-aosp-interfaces" name="android_hardware_aosp_interfaces" remote="darkinfusion" />

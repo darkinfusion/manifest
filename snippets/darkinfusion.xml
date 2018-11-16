@@ -144,7 +144,7 @@
   
   <!-- External Repos -->
   <project path="external-ant-wireless-ant_native" name="android_external_ant_wireless_ant_native" remote="darkinfusion" />
-  <project path="external-ant-wireless-ant_service" name="android-external-ant-wireless-ant-service" remote="darkinfusion" />
+  <project path="external-ant-wireless-ant_service" name="android_external_ant_wireless_ant_service" remote="darkinfusion" />
   <project path="external-ant-wireless-antradio-library" name="android-external-ant-wireless_antradio-library" remote="darkinfusion" />
   <project path="external-bash" name="android_-xternal-bash" remote="darkinfusion" />
   <project path="external-brctl" name="android-external-brctl" remote="darkinfusion" />

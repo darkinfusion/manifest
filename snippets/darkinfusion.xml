@@ -104,15 +104,15 @@
   <project path="system-qcom" name="android-system-qcom" remote="darkinfusion" />
   
   <!-- Hardware Repos -->
-  <project path="hardware-interfaces" name="android-hardware-interfaces" remote="darkinfusion" />
-  <project path="hardware-custom-telephony" name="android-hardware-custom-telephony" remote="darkinfusion" />
-  <project path="hardware-libhardware_legacy" name="android-hardware-libhardware-legacy" remote="darkinfusion" />
-  <project path="hardware-aosp-interfaces" name="android-hardware-aosp-interfaces" remote="darkinfusion" />
-  <project path="hardware-ril" name="android-hardware-ril" remote="darkinfusion" />
-  <project path="hardware-qcom-bt" name="android-hardware-qcom_bt" remote="darkinfusion" />
+  <project path="hardware-interfaces" name="android_hardware_interfaces" remote="darkinfusion" />
+  <project path="hardware-custom-telephony" name="android_hardware_custom_telephony" remote="darkinfusion" />
+  <project path="hardware-libhardware_legacy" name="android_hardware_libhardware_egacy" remote="darkinfusion" />
+  <project path="hardware-aosp-interfaces" name="android_hardware_aosp_interfaces" remote="darkinfusion" />
+  <project path="hardware-ril" name="android_hardware_ril" remote="darkinfusion" />
+  <project path="hardware-qcom-bt" name="android_hardware_qcom_bt" remote="darkinfusion" />
   <project path="hardware-qcom-wlan" name="android_hardware_qcom_wlan" remote="darkinfusion" />
  <!-- <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="darkinfusion" revision="pie-caf" /> -->
-  <project path="hardware-qcom-camera" name="android-hardware-qcom-camera" remote="darkinfusion" />
+  <project path="hardware-qcom-camera" name="android_hardware_qcom_camera" remote="darkinfusion" />
   <project path="hardware-qcom-bootctrl" name="android-hardware-qcom-bootctrl" remote="darkinfusion" />
   <project path="hardware-qcom-gps" name="android-hardware-qcom-gps" remote="darkinfusion" />
   <project path="hardware-qcom-keymaster" name="android-hardware-qcom-keymaster" remote="darkinfusion" />

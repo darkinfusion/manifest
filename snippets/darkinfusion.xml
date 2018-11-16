@@ -43,7 +43,7 @@
   <project path="frameworks-opt-net-wifi" name="android_frameworks_opt_net_wifi" remote="darkinfusion" />
   <project path="frameworks-opt/net-ims" name="android-frameworks-opt-net-ims" remote="darkinfusion" />
   <project path="frameworks-opt/net-voip" name="android_frameworks_opt_net_voip" remote="darkinfusion" />
-  <project path="frameworks-opt-telephony" name="android-frameworks-opt-telephony" remote="darkinfusion" />
+  <project path="frameworks-opt-telephony" name="android_frameworks_opt_telephony" remote="darkinfusion" />
   <project path="vendor-superior" name="android-vendor-darkinfusion" remote="darkinfusion" />
 
   <!-- Packages Repos -->

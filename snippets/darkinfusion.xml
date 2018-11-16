@@ -166,7 +166,7 @@
   <project path="external-vim" name="android_external_vim" remote="darkinfusion" />
   <project path="external-zip" name="android-external-zip" remote="darkinfusion" />
   <project path="external-tinycompress" name="android-external-tinycompress" remote="darkinfusion" />
-  <project path="external-selinux" name="android-external-selinux" remote="darkinfusion" />
+  <project path="external-selinux" name="android_external_selinux" remote="darkinfusion" />
   <project path="external-toybox" name="android-external-toybox" remote="darkinfusion" />
   <project path="external-zlib" name="android-external-zlib" remote="darkinfusion" />
   <project path="external-libtextclassifier" name="android-external-libtextclassifier" remote="darkinfusion" />

@@ -125,7 +125,7 @@
   <project path="system-update_engine" name="android-system-update-engine" remote="darkinfusion" />
   <project path="system-tools-dtbtool" name="android-system-tools-dtbtool" remote="darkinfusion" />
   <project path="system-tools-hidl" name="android-system-tools-hidl" remote="darkinfusion" />
-  <project path="system-bt" name="android-system-bt" remote="darkinfusion" />
+  <project path="system-bt" name="android_system_bt" remote="darkinfusion" />
   <project path="system-qcom" name="android_system_qcom" remote="darkinfusion" />
   <project path="system-core" name="android-system-core" remote="darkinfusion" />
   <project path="system-extras" name="android-system-extras" remote="darkinfusion" />

@@ -135,7 +135,7 @@
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="superior" />
   <project path="system-netd" name="android-system-netd" remote="darkinfusion" />
   <project path="system-sepolicy" name="android-system-sepolicy" remote="darkinfusion" />
-  <project path="system-vold" name="android_system-vold" remote="darkinfusion" />
+  <project path="system-vold" name="android_system_vold" remote="darkinfusion" />
   
     <!-- Prebuilts -->
   <project path="prebuilts-build-tools" name="android_prebuilts-build-tools" remote="darkinfusion" clone-depth="1" />

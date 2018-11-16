@@ -8,6 +8,7 @@ Credits:
  * [**LineageOS**](https://github.com/LineageOS)
  * [**AospExtended**](https://github.com/AospExtended)
  * [**ABC**](https://github.com/ezio84?tab=repositories)
+ * [**SuperiorOS**](https://github.com/SuperiorOS)
 
 -----------------------------------------------------------------------------
 

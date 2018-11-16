@@ -134,7 +134,7 @@
   <project path="system-libhwbinder" name="android_system_libhwbinder" remote="darkinfusion" />
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="superior" />
   <project path="system-netd" name="android-system-netd" remote="darkinfusion" />
-  <project path="system-sepolicy" name="android-system-sepolicy" remote="darkinfusion" />
+  <project path="system-sepolicy" name="android_system_sepolicy" remote="darkinfusion" />
   <project path="system-vold" name="android_system_vold" remote="darkinfusion" />
   
     <!-- Prebuilts -->

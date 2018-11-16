@@ -101,7 +101,7 @@
   <project path="hardware-qcom-fm" name="android_hardware_qcom_fm" remote="darkinfusion" />
   <project path="hardware-qcom/power" name="android-hardware-qcom-power" remote="darkinfusion" />
 <!--  <project path="hardware-ril-caf" name="android_hardware_ril" remote="darkinfusion" revision="pie-caf" /> -->
-  <project path="system-qcom" name="android-system-qcom" remote="darkinfusion" />
+  
   
   <!-- Hardware Repos -->
   <project path="hardware-interfaces" name="android_hardware_interfaces" remote="darkinfusion" />
@@ -126,7 +126,7 @@
   <project path="system-tools-dtbtool" name="android-system-tools-dtbtool" remote="darkinfusion" />
   <project path="system-tools-hidl" name="android-system-tools-hidl" remote="darkinfusion" />
   <project path="system-bt" name="android-system-bt" remote="darkinfusion" />
-  <project path="system-qcom" name="android-system-qcom" remote="darkinfusion" />
+  <project path="system-qcom" name="android_system_qcom" remote="darkinfusion" />
   <project path="system-core" name="android-system-core" remote="darkinfusion" />
   <project path="system-extras" name="android-system-extras" remote="darkinfusion" />
   <project path="system-media" name="android_system_media" remote="darkinfusion" />

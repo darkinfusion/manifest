@@ -15,8 +15,8 @@
 		   
 
   <project path="manifest" name="manifest" remote="darkinfusion" />
-  <project path="build/make" name="android_build" remote="darkinfusion" >
-    <copyfile src="core/root.mk" dest="Makefile" />
+  <project path="build-make" name="android_build" remote="darkinfusion" >
+    <copyfile src="core-root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -24,9 +24,9 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/kati" name="android_build_kati" remote="darkinfusion" />
-  <project path="device/darkinfusion/sepolicy" name="android_device_darkinfusion_sepolicy" remote="darkinfusion" />
-  <project path="build/soong" name="android_build_soong" remote="darkinfusion" >
+  <project path="build-kati" name="android_build_kati" remote="darkinfusion" />
+  <project path="device-darkinfusion-sepolicy" name="android_device_darkinfusion_sepolicy" remote="darkinfusion" />
+  <project path="build-soong" name="android_build_soong" remote="darkinfusion" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -34,148 +34,148 @@
   <!-- Core Repos -->
   <project path="art" name="android_art" remote="darkinfusion" />
   <project path="bionic" name="android_bionic" remote="darkinfusion" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="darkinfusion" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="darkinfusion" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="darkinfusion" />
-  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="darkinfusion" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="darkinfusion" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="darkinfusion" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="darkinfusion" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="darkinfusion" />
-  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="darkinfusion" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="darkinfusion" />
-  <project path="vendor/darkinfusion" name="android_vendor_darkinfusion" remote="darkinfusion" />
+  <project path="bootable-recovery" name="android_bootable_recovery" remote="darkinfusion" />
+  <project path="frameworks-av" name="android_frameworks_av" remote="darkinfusion" />
+  <project path="frameworks-base" name="android_frameworks_base" remote="darkinfusion" />
+  <project path="frameworks-compile-mclinker" name="android_frameworks_compile_mclinker" remote="darkinfusion" />
+  <project path="frameworks-native" name="android_frameworks_native" remote="darkinfusion" />
+  <project path="frameworks-support" name="android_frameworks_support" remote="darkinfusion" />
+  <project path="frameworks-opt-net-wifi" name="android_frameworks_opt_net_wifi" remote="darkinfusion" />
+  <project path="frameworks-opt/net-ims" name="android_frameworks_opt_net_ims" remote="darkinfusion" />
+  <project path="frameworks-opt/net-voip" name="android_frameworks_opt_net_voip" remote="darkinfusion" />
+  <project path="frameworks-opt-telephony" name="android_frameworks_opt_telephony" remote="darkinfusion" />
+  <project path="vendor-superior" name="android_vendor_darkinfusion" remote="darkinfusion" />
 
   <!-- Packages Repos -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="darkinfusion" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="darkinfusion" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="darkinfusion" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="darkinfusion" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="darkinfusion" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="darkinfusion" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="darkinfusion" />
-  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="darkinfusion" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="darkinfusion" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="darkinfusion" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="darkinfusion" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="darkinfusion" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="darkinfusion" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="darkinfusion" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="darkinfusion" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="darkinfusion" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="darkinfusion" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="darkinfusion" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="darkinfusion" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="darkinfusion" />
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="darkinfusion" />
-  <project path="packages/resources/MotoActions" name="android_packages_resources_MotoActions" remote="darkinfusion" />
-  <project path="packages/resources/OneplusGestures" name="android_packages_resources_OneplusGestures" remote="darkinfusion" />
-  <project path="packages/apps/darkinfusionSettings" name="android_packages_apps_darkinfusionSettings" remote="darkinfusion" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="darkinfusion" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="darkinfusion" />
-  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="darkinfusion" />
-  <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="darkinfusion" />
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="darkinfusion" />
-  <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="darkinfusion" />
-  <project path="packages/apps/darkinfusionWalls" name="packages_apps_darkinfusionWallpapers" remote="darkinfusion" />
+  <project path="packages-apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="darkinfusion" />
+  <project path="packages-apps-Camera2" name="android_packages_apps_Camera2" remote="darkinfusion" />
+  <project path="packages-apps-Calendar" name="android_packages_apps_Calendar" remote="darkinfusion" />
+  <project path="packages-apps-Contacts" name="android_packages_apps_Contacts" remote="darkinfusion" />
+  <project path="packages-apps-DeskClock" name="android_packages_apps_DeskClock" remote="darkinfusion" />
+  <project path="packages-apps-DocumentsUI" name="android_packages_apps_DocumentsUI" remote="darkinfusion" />
+  <project path="packages-apps-Dialer" name="android_packages_apps_Dialer" remote="darkinfusion" />
+  <project path="packages-apps-ExactCalculator" name="android_packages_apps_ExactCalculator" remote="darkinfusion" />
+  <project path="packages-apps-Gallery2" name="android_packages_apps_Gallery2" remote="darkinfusion" />
+  <project path="packages-apps-Messaging" name="android_packages_apps_Messaging" remote="darkinfusion" />
+  <project path="packages-apps-FMRadio" name="android_packages_apps_FMRadio" remote="darkinfusion" />
+  <project path="packages-apps-Launcher3" name="android_packages_apps_Launcher3" remote="darkinfusion" />
+  <project path="packages-apps-Settings" name="android_packages_apps_Settings" remote="darkinfusion" />
+  <project path="packages-apps-PackageInstaller" name="android_packages_apps_PackageInstaller" remote="darkinfusion" />
+  <project path="packages-apps-Stk" name="android_packages_apps_Stk" remote="darkinfusion" />
+  <project path="packages-providers-MediaProvider" name="android_packages_providers_MediaProvider" remote="darkinfusion" />
+  <project path="packages-providers-DownloadProvider" name="android_packages_providers_DownloadProvider" remote="darkinfusion" />
+  <project path="packages-services-Telephony" name="android_packages_services_Telephony" remote="darkinfusion" />
+  <project path="packages-services-Telecomm" name="android_packages_services_Telecomm" remote="darkinfusion" />
+  <project path="packages-apps-Nfc" name="android_packages_apps_Nfc" remote="darkinfusion" />
+  <project path="packages-resources-devicesettings" name="android_packages_resources_devicesettings" remote="darkinfusion" />
+  <project path="packages-resources-MotoActions" name="android_packages_resources_MotoActions" remote="darkinfusion" />
+  <project path="packages-resources-OneplusGestures" name="android_packages_resources_OneplusGestures" remote="darkinfusion" />
+  <project path="packages-apps-superiorSettings" name="android_packages_apps_darkinfusionSettings" remote="darkinfusion" />
+  <project path="packages-apps-SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="darkinfusion" />
+  <project path="packages-inputmethods-LatinIME" name="android_packages_inputmethods_LatinIME" remote="darkinfusion" />
+  <project path="packages-apps-Terminal" name="android_packages_apps_Terminal" remote="darkinfusion" />
+  <project path="packages-apps-Recorder" name="android_packages_apps_Recorder" remote="darkinfusion" />
+  <project path="packages-apps-Snap" name="android_packages_apps_Snap" remote="darkinfusion" />
+  <project path="packages-providers-AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="darkinfusion" />
+  />
   
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="darkinfusion" />
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="darkinfusion" />
-  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="darkinfusion" revision="pie-caf" />
-  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="darkinfusion" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" remote="darkinfusion" revision="pie-caf-8916" />
-  <!--<project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="darkinfusion" revision="pie-caf-8974" />-->
+  <project path="device-qcom-sepolicy" name="android_device_qcom_sepolicy" remote="darkinfusion" />
+  <project path="device-qcom-sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="darkinfusion" />
+ <!-- <project path="hardware-qcom/bt-caf" name="android_hardware_qcom_bt" remote="darkinfusion" revision="pie-caf" /> -->
+  <project path="hardware-qcom-audio-default" name="android_hardware_qcom_audio" remote="darkinfusion" />
+<!--  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" remote="darkinfusion" revision="pie-caf-8916" /> -->
+  <!--<project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="darkinfusion" revision="pie-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="darkinfusion" revision="pie-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="darkinfusion" revision="pie-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="darkinfusion" revision="pie-caf-8998" />-->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="darkinfusion" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" remote="darkinfusion" revision="pie-caf-8916" />
-  <!--<project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" remote="darkinfusion" revision="pie-caf-8974" />-->
+  <!--<project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" remote="darkinfusion" revision="pie-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="darkinfusion" revision="pie-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" remote="darkinfusion" revision="pie-caf-8998" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="darkinfusion" />
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" remote="darkinfusion" revision="pie-caf-8916" />
-  <!--<project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" remote="darkinfusion" revision="pie-caf-8974" />-->
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" remote="darkinfusion" revision="pie-caf-8998" /> -->
+  <project path="hardware-qcom-media" name="android_hardware_qcom_media" remote="darkinfusion" />
+<!--<!--  <project path="hardware-qcom-media-caf/msm8916" name="android_hardware_qcom_media" remote="darkinfusion" revision="pie-caf-8916" />
+  <!--<project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" remote="darkinfusion" revision="pie-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="darkinfusion" revision="pie-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="darkinfusion" revision="pie-caf-8998" />
-  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="darkinfusion" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="darkinfusion" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" remote="darkinfusion" revision="pie-caf" />
-  <project path="system/qcom" name="android_system_qcom" remote="darkinfusion" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="darkinfusion" revision="pie-caf-8998" /> -->
+  <project path="hardware-qcom-fm" name="android_hardware_qcom_fm" remote="darkinfusion" />
+  <project path="hardware-qcom/power" name="android_hardware_qcom_power" remote="darkinfusion" />
+<!--  <project path="hardware-ril-caf" name="android_hardware_ril" remote="darkinfusion" revision="pie-caf" /> -->
+  <project path="system-qcom" name="android_system_qcom" remote="darkinfusion" />
   
   <!-- Hardware Repos -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="darkinfusion" />
-  <project path="hardware/custom/telephony" name="android_hardware_custom_telephony" remote="darkinfusion" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="darkinfusion" />
-  <project path="hardware/aosp/interfaces" name="android_hardware_aosp_interfaces" remote="darkinfusion" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="darkinfusion" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="darkinfusion" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="darkinfusion" />
-  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="darkinfusion" revision="pie-caf" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="darkinfusion" />
-  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="darkinfusion" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="darkinfusion" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="darkinfusion" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="darkinfusion" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="darkinfusion" />
-  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="darkinfusion" />
+  <project path="hardware-interfaces" name="android_hardware_interfaces" remote="darkinfusion" />
+  <project path="hardware-custom-telephony" name="android_hardware_custom_telephony" remote="darkinfusion" />
+  <project path="hardware-libhardware_legacy" name="android_hardware_libhardware_legacy" remote="darkinfusion" />
+  <project path="hardware-aosp-interfaces" name="android_hardware_aosp_interfaces" remote="darkinfusion" />
+  <project path="hardware-ril" name="android_hardware_ril" remote="darkinfusion" />
+  <project path="hardware-qcom-bt" name="android_hardware_qcom_bt" remote="darkinfusion" />
+  <project path="hardware-qcom-wlan" name="android_hardware_qcom_wlan" remote="darkinfusion" />
+ <!-- <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="darkinfusion" revision="pie-caf" /> -->
+  <project path="hardware-qcom-camera" name="android_hardware_qcom_camera" remote="darkinfusion" />
+  <project path="hardware-qcom-bootctrl" name="android_hardware_qcom_bootctrl" remote="darkinfusion" />
+  <project path="hardware-qcom-gps" name="android_hardware_qcom_gps" remote="darkinfusion" />
+  <project path="hardware-qcom-keymaster" name="android_hardware_qcom_keymaster" remote="darkinfusion" />
+  <project path="hardware-libhardware" name="android_hardware_libhardware" remote="darkinfusion" />
+  <project path="hardware-nxp-nfc" name="android_hardware_nxp_nfc" remote="darkinfusion" />
+  <project path="hardware-qcom-vr" name="android_hardware_qcom_vr" remote="darkinfusion" />
 
   <!-- System Repos -->
-  <project path="system/security" name="android_system_security" remote="darkinfusion" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="darkinfusion" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="darkinfusion" />
-  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="darkinfusion" />
-  <project path="system/bt" name="android_system_bt" remote="darkinfusion" />
-  <project path="system/core" name="android_system_core" remote="darkinfusion" />
-  <project path="system/extras" name="android_system_extras" remote="darkinfusion" />
-  <project path="system/media" name="android_system_media" remote="darkinfusion" />
-  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="darkinfusion" />
-  <project path="system/libhidl" name="android_system_libhidl" remote="darkinfusion" />
-  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="darkinfusion" />
-  <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="darkinfusion" />
-  <project path="system/netd" name="android_system_netd" remote="darkinfusion" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="darkinfusion" />
-  <project path="system/vold" name="android_system_vold" remote="darkinfusion" />
+  <project path="system-security" name="android_system_security" remote="darkinfusion" />
+  <project path="system-update_engine" name="android_system_update_engine" remote="darkinfusion" />
+  <project path="system-tools-dtbtool" name="android_system_tools_dtbtool" remote="darkinfusion" />
+  <project path="system-tools-hidl" name="android_system_tools_hidl" remote="darkinfusion" />
+  <project path="system-bt" name="android_system_bt" remote="darkinfusion" />
+  <project path="system-core" name="android_system_core" remote="darkinfusion" />
+  <project path="system-extras" name="android_system_extras" remote="darkinfusion" />
+  <project path="system-media" name="android_system_media" remote="darkinfusion" />
+  <project path="system-hardware-interfaces" name="android_system_hardware_interfaces" remote="darkinfusion" />
+  <project path="system-libhidl" name="android_system_libhidl" remote="darkinfusion" />
+  <project path="system-libhwbinder" name="android_system_libhwbinder" remote="darkinfusion" />
+  <project path="system-hwservicemanager" name="android_system_hwservicemanager" remote="darkinfusion" />
+  <project path="system-netd" name="android_system_netd" remote="darkinfusion" />
+  <project path="system-sepolicy" name="android_system_sepolicy" remote="darkinfusion" />
+  <project path="system-vold" name="android_system_vold" remote="darkinfusion" />
   
     <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="darkinfusion" clone-depth="1" />
+  <project path="prebuilts-build-tools" name="android_prebuilts_build-tools" remote="darkinfusion" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
   
   <!-- External Repos -->
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="darkinfusion" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="darkinfusion" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="darkinfusion" />
-  <project path="external/bash" name="android_external_bash" remote="darkinfusion" />
-  <project path="external/brctl" name="android_external_brctl" remote="darkinfusion" />
-  <project path="external/exfat" name="android_external_exfat" remote="darkinfusion" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="darkinfusion" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="darkinfusion" />
-  <project path="external/mksh" name="android_external_mksh" remote="darkinfusion" />
-  <project path="external/fuse" name="android_external_fuse" remote="darkinfusion" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="darkinfusion" />
-  <project path="external/elfutils" name="android_external_elfutils" remote="darkinfusion" />
-  <project path="external/json-c" name="android_external_json-c" remote="darkinfusion" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="darkinfusion" />
-  <project path="external/nano" name="android_external_nano" remote="darkinfusion" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="darkinfusion" />
-  <project path="external/openssh" name="android_external_openssh" remote="darkinfusion" />
-  <project path="external/perfetto" name="android_external_perfetto" remote="darkinfusion" />
-  <project path="external/p7zip" name="android_external_p7zip" remote="darkinfusion" />
-  <project path="external/pigz" name="android_external_pigz" remote="darkinfusion" />
-  <project path="external/unrar" name="android_external_unrar" remote="darkinfusion" />
-  <project path="external/vim" name="android_external_vim" remote="darkinfusion" />
-  <project path="external/zip" name="android_external_zip" remote="darkinfusion" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="darkinfusion" />
-  <project path="external/selinux" name="android_external_selinux" remote="darkinfusion" />
-  <project path="external/toybox" name="android_external_toybox" remote="darkinfusion" />
-  <project path="external/zlib" name="android_external_zlib" remote="darkinfusion" />
-  <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="darkinfusion" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="darkinfusion" />
+  <project path="external-ant-wireless-ant_native" name="android_external_ant-wireless_ant_native" remote="darkinfusion" />
+  <project path="external-ant-wireless-ant_service" name="android_external_ant-wireless_ant_service" remote="darkinfusion" />
+  <project path="external-ant-wireless-antradio-library" name="android_external_ant-wireless_antradio-library" remote="darkinfusion" />
+  <project path="external-bash" name="android_external_bash" remote="darkinfusion" />
+  <project path="external-brctl" name="android_external_brctl" remote="darkinfusion" />
+  <project path="external-exfat" name="android_external_exfat" remote="darkinfusion" />
+  <project path="external-connectivity" name="android_external_connectivity" remote="darkinfusion" />
+  <project path="external-libnfc-nxp" name="android_external_libnfc-nxp" remote="darkinfusion" />
+  <project path="external-mksh" name="android_external_mksh" remote="darkinfusion" />
+  <project path="external-fuse" name="android_external_fuse" remote="darkinfusion" />
+  <project path="external-e2fsprogs" name="android_external_e2fsprogs" remote="darkinfusion" />
+  <project path="external-elfutils" name="android_external_elfutils" remote="darkinfusion" />
+  <project path="external-json-c" name="android_external_json-c" remote="darkinfusion" />
+  <project path="external-libncurses" name="android_external_libncurses" remote="darkinfusion" />
+  <project path="external-nano" name="android_external_nano" remote="darkinfusion" />
+  <project path="external-ntfs-3g" name="android_external_ntfs-3g" remote="darkinfusion" />
+  <project path="external-openssh" name="android_external_openssh" remote="darkinfusion" />
+  <project path="external-perfetto" name="android_external_perfetto" remote="darkinfusion" />
+  <project path="external-p7zip" name="android_external_p7zip" remote="darkinfusion" />
+  <project path="external-pigz" name="android_external_pigz" remote="darkinfusion" />
+  <project path="external-unrar" name="android_external_unrar" remote="darkinfusion" />
+  <project path="external-vim" name="android_external_vim" remote="darkinfusion" />
+  <project path="external-zip" name="android_external_zip" remote="darkinfusion" />
+  <project path="external-tinycompress" name="android_external_tinycompress" remote="darkinfusion" />
+  <project path="external-selinux" name="android_external_selinux" remote="darkinfusion" />
+  <project path="external-toybox" name="android_external_toybox" remote="darkinfusion" />
+  <project path="external-zlib" name="android_external_zlib" remote="darkinfusion" />
+  <project path="external-libtextclassifier" name="android_external_libtextclassifier" remote="darkinfusion" />
+  <project path="external-f2fs-tools" name="android_external_f2fs-tools" remote="darkinfusion" />
 	
 	  <!-- Darkinfusion Devices -->
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="darkinfusion" />
-  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="darkinfusion" />
-  <project path="vendor/huawei" name="vendor_huawei" remote="darkinfusion" />
+  <project path="device-huawei-angler" name="device_huawei_angler" remote="darkinfusion" />
+  <project path="kernel-huawei-angler" name="kernel_huawei_angler" remote="darkinfusion" />
+  <project path="vendor-huawei" name="vendor_huawei" remote="darkinfusion" />
 	
  <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />

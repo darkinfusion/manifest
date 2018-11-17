@@ -113,17 +113,17 @@
   <project path="system-update-engine" name="system-update_engine" remote="darkinfusion" />
   <project path="system-tools-dtbtool" name="system-tools-dtbtool" remote="darkinfusion" />
   <project path="system-tools-hidl" name="system-tools-hidl" remote="darkinfusion" />
-  <project path="system-bt" name="system_bt" remote="darkinfusion" />
+  <project path="system-bt" name="system-bt" remote="darkinfusion" />
   <project path="system-core" name="system-core" remote="darkinfusion" />
-  <project path="system-extras" name="system_extras" remote="darkinfusion" />
-  <project path="system-media" name="system_media" remote="darkinfusion" />
+  <project path="system-extras" name="system-extras" remote="darkinfusion" />
+  <project path="system-media" name="system-media" remote="darkinfusion" />
   <project path="system-hardware-interfaces" name="system-hardware-interfaces" remote="darkinfusion" />
   <project path="system-libhidl" name="system-libhidl" remote="darkinfusion" />
   <project path="system-libhwbinder" name="system-libhwbinder" remote="darkinfusion" />
-  <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="darkinfusion" />
-  <project path="system/netd" name="android_system_netd" remote="darkinfusion" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="darkinfusion" />
-  <project path="system/vold" name="android_system_vold" remote="darkinfusion" />
+  <project path="system-hwservicemanager" name="system-hwservicemanager" remote="darkinfusion" />
+  <project path="system-netd" name="system-netd" remote="darkinfusion" />
+  <project path="system-sepolicy" name="system-sepolicy" remote="darkinfusion" />
+  <project path="system-vold" name="system-vold" remote="darkinfusion" />
   
     <!-- Prebuilts -->
    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="darkinfusion" clone-depth="1" />

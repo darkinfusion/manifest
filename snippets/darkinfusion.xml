@@ -51,7 +51,7 @@
   <!-- CodeAurora additions -->
   <project path="device-qcom-sepolicy" name="device-qcom_sepolicy" remote="darkinfusion" />
   <project path="device-qcom-sepolicy-legacy" name="device-qcom-sepolicy-legacy" remote="darkinfusion" />
-  <project path="hardware-qcom-audio/default" name="hardware-qcom-audio" remote="darkinfusion" />
+  <project path="hardware-qcom-audio-default" name="hardware-qcom-audio" remote="darkinfusion" />
   <project path="hardware-qcom-display" name="hardware-qcom-display" remote="darkinfusion" />
   <project path="hardware-qcom-media" name="hardware-qcom-media" remote="darkinfusion" />
   <project path="hardware-qcom-fm" name="hardware-qcom-fm" remote="darkinfusion" />

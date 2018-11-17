@@ -34,8 +34,9 @@
   <!-- Core Repos -->
   <project path="art" name="android_art" remote="superior" />
   <project path="bionic" name="android_bionic" remote="darkinfusion" />
-  <project path="bootable-recovery" name="android-bootable-recovery" remote="darkinfusion" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+
+	<project path="frameworks/av" name="android_frameworks_av" remote="superior" />
   <project path="frameworks-base" name="android-frameworks-base" remote="darkinfusion" />
   <project path="frameworks-compile-mclinker" name="android_frameworks_compile_mclinker" remote="darkinfusion" />
   <project path="frameworks/native" name="android_frameworks_native" remote="superior" />

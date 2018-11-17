@@ -130,7 +130,7 @@
   <project path="system-extras" name="android-system-extras" remote="darkinfusion" />
   <project path="system-media" name="android_system_media" remote="darkinfusion" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="superior" />
-  <project path="system-libhidl" name="android-system-libhidl" remote="darkinfusion" />
+ <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="superior" />
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="superior" />
   <project path="system/netd" name="androi_-system_netd" remote="superior" />

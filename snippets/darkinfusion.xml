@@ -36,21 +36,21 @@
   <project path="bootable-recovery" name="bootable_recovery" remote="darkinfusion" />
   <project path="bionic" name="bionic" remote="darkinfusion" />
 
-	<project path="frameworks-av" name="frameworks-av" remote="darkinfusion" />
-  <project path="frameworks-base" name="frameworks-base" remote="darkinfusion" />
-  <project path="frameworks-compile-mclinker" name="frameworks-compile-mclinker" remote="darkinfusion" />
+	<project path="frameworks/av" name="frameworks-av" remote="darkinfusion" />
+  <project path="frameworks/base" name="frameworks-base" remote="darkinfusion" />
+  <project path="frameworks/compile-mclinker" name="frameworks-compile-mclinker" remote="darkinfusion" />
 
-  <project path="frameworks-native" name="frameworks-native" remote="darkinfusion" />
-  <project path="frameworks-support" name="frameworks-support" remote="darkinfusion" />
-  <project path="frameworks-opt-net-wifi" name="frameworks-opt-net-wifi" remote="darkinfusion" />
-  <project path="frameworks-opt-net-ims" name="frameworks-opt-net-ims" remote="darkinfusion" />
-   <project path="frameworks-opt-net-voip" name="frameworks-opt-net-voip" remote="darkinfusion" />
-  <project path="frameworks-opt-telephony" name="frameworks-opt-telephony" remote="darkinfusion" />
+  <project path="frameworks/native" name="frameworks-native" remote="darkinfusion" />
+  <project path="frameworks/support" name="frameworks-support" remote="darkinfusion" />
+  <project path="frameworks/opt-net-wifi" name="frameworks-opt-net-wifi" remote="darkinfusion" />
+  <project path="frameworks/opt-net-ims" name="frameworks-opt-net-ims" remote="darkinfusion" />
+   <project path="frameworks/opt-net-voip" name="frameworks-opt-net-voip" remote="darkinfusion" />
+  <project path="frameworks/opt-telephony" name="frameworks-opt-telephony" remote="darkinfusion" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
 
   <!-- CodeAurora additions -->
-  <project path="device-qcom-sepolicy" name="device-qcom-sepolicy" remote="darkinfusion" />
-  <project path="device-qcom-sepolicy-legacy" name="device-qcom-sepolicy-legacy" remote="darkinfusion" />
+  <project path="device/qcom-sepolicy" name="device-qcom-sepolicy" remote="darkinfusion" />
+  <project path="device/qcom-sepolicy-legacy" name="device-qcom-sepolicy-legacy" remote="darkinfusion" />
   <project path="hardware-qcom-audio-default" name="hardware-qcom-audio" remote="darkinfusion" />
   <project path="hardware-qcom-display" name="hardware-qcom-display" remote="darkinfusion" />
   <project path="hardware-qcom-media" name="hardware-qcom-media" remote="darkinfusion" />
@@ -157,16 +157,16 @@
   <project path="external/selinux" name="external-selinux" remote="darkinfusion" />
   <project path="external/toybox" name="external-toybox" remote="darkinfusion" />
   <project path="external/zlib" name="external-zlib" remote="darkinfusion" />
-  <project path="externa/libtextclassifier" name="external-libtextclassifier" remote="darkinfusion" />
+  <project path="external/libtextclassifier" name="external-libtextclassifier" remote="darkinfusion" />
   <project path="external/f2fs-tools" name="external-f2fs-tools" remote="darkinfusion" />
 
 
   
 	
 	  <!-- Darkinfusion Devices -->
-  <project path="device-huawei-angler" name="device-huawei-angler" remote="darkinfusion" />
-  <project path="kernel-huawei-angler" name="kernel-huawei-angler" remote="darkinfusion" />
-  <project path="vendor-huawei" name="vendor-huawei" remote="darkinfusion" />
+  <project path="device/huawei-angler" name="device-huawei-angler" remote="darkinfusion" />
+  <project path="kernel/huawei-angler" name="kernel-huawei-angler" remote="darkinfusion" />
+  <project path="vendor/huawei" name="vendor-huawei" remote="darkinfusion" />
 	
  <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />

@@ -146,7 +146,7 @@
   <project path="external-ant-wireless-ant_service" name="android_external_ant_wireless_ant_service" remote="darkinfusion" />
   <project path="external-ant-wireless-antradio-library" name="android-external-ant-wireless_antradio-library" remote="darkinfusion" />
   <project path="external-bash" name="android_-xternal-bash" remote="darkinfusion" />
-  <project path="external-brctl" name="android-external-brctl" remote="darkinfusion" />
+ <project path="external/brctl" name="android_external_brctl" remote="superior" />
   <project path="external/exfat" name="android_external_exfat" remote="superior" />
   <project path="external/connectivity" name="android_external_connectivity" remote="superior" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="superior" />

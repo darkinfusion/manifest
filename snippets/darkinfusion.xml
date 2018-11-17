@@ -42,10 +42,10 @@
 
   <project path="frameworks/native" name="frameworks-native" remote="darkinfusion" />
   <project path="frameworks/support" name="frameworks-support" remote="darkinfusion" />
-  <project path="frameworks/opt-net-wifi" name="frameworks-opt-net-wifi" remote="darkinfusion" />
-  <project path="frameworks/opt-net-ims" name="frameworks-opt-net-ims" remote="darkinfusion" />
-   <project path="frameworks/opt-net-voip" name="frameworks-opt-net-voip" remote="darkinfusion" />
-  <project path="frameworks/opt-telephony" name="frameworks-opt-telephony" remote="darkinfusion" />
+  <project path="frameworks/opt/net/wifi" name="frameworks-opt-net-wifi" remote="darkinfusion" />
+  <project path="frameworks/opt/net/ims" name="frameworks-opt-net-ims" remote="darkinfusion" />
+   <project path="frameworks/opt/net/voip" name="frameworks-opt-net-voip" remote="darkinfusion" />
+  <project path="frameworks/opt/telephony" name="frameworks-opt-telephony" remote="darkinfusion" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
 
   <!-- CodeAurora additions -->

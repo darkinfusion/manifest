@@ -16,7 +16,7 @@
 
   <project path="manifest" name="manifest" remote="darkinfusion" />
   <project path="build-make" name="build" remote="darkinfusion" >
-    <copyfile src="core-root.mk" dest="Makefile" />
+    <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />

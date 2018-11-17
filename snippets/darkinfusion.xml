@@ -114,7 +114,7 @@
   <project path="system/core" name="system-core" remote="darkinfusion" />
   <project path="system/extras" name="system-extras" remote="darkinfusion" />
   <project path="system/media" name="system-media" remote="darkinfusion" />
-  <project path="system/hardware-interfaces" name="system-hardware-interfaces" remote="darkinfusion" />
+  <project path="system/hardware/interfaces" name="system-hardware-interfaces" remote="darkinfusion" />
   <project path="system/libhidl" name="system-libhidl" remote="darkinfusion" />
   <project path="system/libhwbinder" name="system-libhwbinder" remote="darkinfusion" />
   <project path="system/hwservicemanager" name="system-hwservicemanager" remote="darkinfusion" />

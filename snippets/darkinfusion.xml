@@ -147,40 +147,33 @@
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
   
   <!-- External Repos -->
-  <project path="external-ant-wireless-ant_native" name="android_external_ant_wireless_ant_native" remote="darkinfusion" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="superior" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="superior" />
-
-	<project path="external-ant-wireless-antradio-library" name="android-external-ant-wireless_antradio-library" remote="darkinfusion" />
-   <project path="external/bash" name="android_external_bash" remote="superior" />
- <project path="external/brctl" name="android_external_brctl" remote="superior" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="superior" />
+  <project path="external/bash" name="android_external_bash" remote="superior" />
+  <project path="external/brctl" name="android_external_brctl" remote="superior" />
   <project path="external/exfat" name="android_external_exfat" remote="superior" />
   <project path="external/connectivity" name="android_external_connectivity" remote="superior" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="superior" />
-  <project path="external-mksh" name="android_external_mksh" remote="darkinfusion" />
+  <project path="external/mksh" name="android_external_mksh" remote="superior" />
   <project path="external/fuse" name="android_external_fuse" remote="superior" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="superior" />
   <project path="external/elfutils" name="android_external_elfutils" remote="superior" />
-
-
-	<project path="external/json-c" name="android_external_json-c" remote="superior" />
-  <project path="external.libncurses" name="android_external_libncurses" remote="superior" />
- <project path="external/nano" name="android_external_nano" remote="superior" />
+  <project path="external/json-c" name="android_external_json-c" remote="superior" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="superior" />
+  <project path="external/nano" name="android_external_nano" remote="superior" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="superior" />
   <project path="external/openssh" name="android_external_openssh" remote="superior" />
   <project path="external/perfetto" name="android_external_perfetto" remote="superior" />
-
-	<project path="external/p7zip" name="android_external_p7zip" remote="superior" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="superior" />
   <project path="external/pigz" name="android_external_pigz" remote="superior" />
-
-	<project path="external-unrar" name="android_external_unrar" remote="darkinfusion" />
+  <project path="external/unrar" name="android_external_unrar" remote="superior" />
   <project path="external/vim" name="android_external_vim" remote="superior" />
-
-	<project path="external/zip" name="android_external_zip" remote="superior" />
-  <project path="external-tinycompress" name="android_external_tinycompress" remote="darkinfusion" />
-   <project path="external/toybox" name="android_external_toybox" remote="superior" />
-  <project path="external-selinux" name="android_external_selinux" remote="darkinfusion" />
-   <project path="external/zlib" name="android_external_zlib" remote="superior" />
-
+  <project path="external/zip" name="android_external_zip" remote="superior" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
+  <project path="external/selinux" name="android_external_selinux" remote="superior" />
+  <project path="external/toybox" name="android_external_toybox" remote="superior" />
+  <project path="external/zlib" name="android_external_zlib" remote="superior" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="superior" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="superior" />
 

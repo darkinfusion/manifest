@@ -99,12 +99,12 @@
   <project path="hardware-qcom-wlan" name="hardware-qcom-wlan" remote="darkinfusion" />
 
   <project path="hardware-qcom-camera" name="hardware-qcom-camera" remote="darkinfusion" />
-  <project path="hardware-qcom-bootctrl" name="hardware_qcom_bootctrl" remote="darkinfusion" />
+  <project path="hardware-qcom-bootctrl" name="hardware-qcom-bootctrl" remote="darkinfusion" />
 
   <project path="hardwar-qcom-gps" name="hardware-qcom-gps" remote="darkinfusion" />
   <project path="hardware-qcom-keymaster" name="hardware-qcom-keymaster" remote="darkinfusion" />
   <project path="hardware-libhardware" name="hardware-libhardware" remote="darkinfusion" />
-  <project path="hardware-qcom-vr" name="hardware-qcom_vr" remote="darkinfusion" />
+  <project path="hardware-qcom-vr" name="hardware-qcom-vr" remote="darkinfusion" />
 
 	<project path="hardware-nxp-nfc" name="hardware-nxp-nfc" remote="darkinfusion" />
 

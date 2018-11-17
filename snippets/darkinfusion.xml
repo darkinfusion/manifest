@@ -72,7 +72,7 @@
   <project path="packages-apps-Launcher3" name="packages-apps-Launcher3" remote="darkinfusion" />
   <project path="packages-apps-Settings" name="packages-apps-Settings" remote="darkinfusion" />
   <project path="packages-apps-PackageInstaller" name="packages-apps-PackageInstaller" remote="darkinfusion" />
-  <project path="packages-apps-Stk" name="packages-apps_Stk" remote="darkinfusion" />
+  <project path="packages-apps-Stk" name="packages-apps-Stk" remote="darkinfusion" />
   <project path="packages-providers-MediaProvider" name="packages-providers-MediaProvider" remote="darkinfusion" />
   <project path="packages-providers-DownloadProvider" name="packages-providers-DownloadProvider" remote="darkinfusion" />
   <project path="packages-services-Telephony" name="packages-services-Telephony" remote="darkinfusion" />

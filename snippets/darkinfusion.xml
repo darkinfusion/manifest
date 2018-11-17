@@ -184,7 +184,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="superior" />
 
 	 <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
+  
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="superior" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="superior" revision="pie-caf" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="superior" />

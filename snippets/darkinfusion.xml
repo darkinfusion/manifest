@@ -139,7 +139,7 @@
   <project path="external/fuse" name="external-fuse" remote="darkinfusion" />
   <project path="external/e2fsprogs" name="external-e2fsprogs" remote="darkinfusion" />
   <project path="external/elfutils" name="external-elfutils" remote="darkinfusion" />
-  <project path="externa/json-c" name="external-json-c" remote="darkinfusion" />
+  <project path="external/json-c" name="external-json-c" remote="darkinfusion" />
   <project path="external/libncurses" name="external-libncurses" remote="darkinfusion" />
   <project path="external/nano" name="external-nano" remote="darkinfusion" />
   <project path="external/ntfs-3g" name="external-ntfs-3g" remote="darkinfusion" />

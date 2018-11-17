@@ -110,8 +110,9 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="superior" />
 
 	<!-- <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="darkinfusion" revision="pie-caf" /> -->
-  <project path="hardware-qcom-camera" name="android_hardware_qcom_camera" remote="darkinfusion" />
-  <project path="hardware-qcom-bootctrl" name="android-hardware-qcom-bootctrl" remote="darkinfusion" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="superior" />
+
+	<project path="hardware-qcom-bootctrl" name="android-hardware-qcom-bootctrl" remote="darkinfusion" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="superior" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />

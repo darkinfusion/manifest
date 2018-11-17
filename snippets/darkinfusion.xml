@@ -125,22 +125,20 @@
 
   <!-- System Repos -->
   <project path="system/security" name="android_system_security" remote="superior" />
-
-	<project path="system/update_engine" name="android_system_update_engine" remote="superior" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="superior" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="superior" />
-  <project path="system-bt" name="android_system_bt" remote="darkinfusion" />
-  <project path="system/qcom" name="android_system_qcom" remote="superior" />
+  <project path="system/bt" name="android_system_bt" remote="superior" />
   <project path="system/core" name="android_system_core" remote="superior" />
-  <project path="system-extras" name="android-system-extras" remote="darkinfusion" />
-  <project path="system-media" name="android_system_media" remote="darkinfusion" />
+  <project path="system/extras" name="android_system_extras" remote="superior" />
+  <project path="system/media" name="android_system_media" remote="superior" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="superior" />
- <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="superior" />
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="superior" />
   <project path="system/netd" name="android_system_netd" remote="superior" />
-  <project path="system-sepolicy" name="android_system_sepolicy" remote="darkinfusion" />
-  <project path="system-vold" name="android_system_vold" remote="darkinfusion" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
+  <project path="system/vold" name="android_system_vold" remote="superior" />
   
     <!-- Prebuilts -->
    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="superior" clone-depth="1" />

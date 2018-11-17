@@ -105,8 +105,8 @@
   <project path="hardware/custom/telephony" name="android_hardware_custom_telephony" remote="superior" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="superior" />
    <project path="hardware/aosp/interfaces" name="android_hardware_aosp_interfaces" remote="superior" />
-  <project path="hardware-ril" name="android-hardware-ril" remote="darkinfusion" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="superior" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="superior" />
+ <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="superior" />
   <project path="hardware-qcom-wlan" name="android-hardware-qcom-wlan" remote="darkinfusion" />
  <!-- <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="darkinfusion" revision="pie-caf" /> -->
   <project path="hardware-qcom-camera" name="android_hardware_qcom_camera" remote="darkinfusion" />

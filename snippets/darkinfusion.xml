@@ -169,16 +169,16 @@
   <project path="vendor-huawei" name="vendor-huawei" remote="darkinfusion" />
 	
  <!-- Qcom Vendor Repos -->
-  <project path="vendor-codeaurora-telephony" name="vendor-codeaurora-telephony" remote="darkinfusion" />
-  <project path="vendor-qcom-opensource-audio" name="vendor-qcom-opensource-audio" remote="darkinfusion" />
-  <project path="vendor-qcom-opensource-interfaces" name="vendor-qcom-opensource-interfaces" remote="darkinfusion" >
-    <copyfile dest="vendor-qcom-opensource-Android.bp" src="os_pickup.bp"/>
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="superior" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="superior" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-  <project path="vendor-qcom-opensource-dataservices" name="vendor-qcom-opensource-dataservices" remote="darkinfusion" />
-  <project path="vendor-nxp-interfaces-opensource-nfc" name="vendor-nxp-interfaces-opensource-nfc" remote="darkinfusion">
-    <linkfile dest="vendor-nxp-interfaces-Android.bp" src="prop-pickup.bp"/>
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="superior" />
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="superior">
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
   </project>
-  <project path="vendor-nx--opensource-external-libnfc-nci" name="vendor-nxp-opensource-external-libnfc-nci" remote="darkinfusion" />
-  <project path="vendor-nxp-opensource-frameworks" name="vendor-nxp-opensource-frameworks" remote="darkinfusion" />
-  <project path="vendor-nxp-opensource-packages-apps-Nfc" name="vendor-nxp-opensource-packages-apps-Nfc" remote="darkinfusion" />
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="superior" />
+  <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="superior" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="superior" />
 </manifest> 

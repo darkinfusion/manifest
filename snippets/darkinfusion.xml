@@ -38,7 +38,7 @@
 
 	<project path="frameworks/av" name="frameworks-av" remote="darkinfusion" />
   <project path="frameworks/base" name="frameworks-base" remote="darkinfusion" />
-  <project path="frameworks/compile-mclinker" name="frameworks-compile-mclinker" remote="darkinfusion" />
+  <project path="frameworks/compile/mclinker" name="frameworks-compile-mclinker" remote="darkinfusion" />
 
   <project path="frameworks/native" name="frameworks-native" remote="darkinfusion" />
   <project path="frameworks/support" name="frameworks-support" remote="darkinfusion" />

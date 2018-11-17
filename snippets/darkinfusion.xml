@@ -107,7 +107,7 @@
 
   <!-- System Repos -->
   <project path="system/security" name="system-security" remote="darkinfusion" />
-  <project path="system/update-engine" name="system-update_engine" remote="darkinfusion" />
+  <project path="system/update-engine" name="system-update-engine" remote="darkinfusion" />
   <project path="system/tools-dtbtool" name="system-tools-dtbtool" remote="darkinfusion" />
   <project path="system/tools-hidl" name="system-tools-hidl" remote="darkinfusion" />
   <project path="system/bt" name="system-bt" remote="darkinfusion" />

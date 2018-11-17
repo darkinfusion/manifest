@@ -149,7 +149,7 @@
   <project path="external-bash" name="android_-xternal-bash" remote="darkinfusion" />
   <project path="external-brctl" name="android-external-brctl" remote="darkinfusion" />
   <project path="external-exfat" name="android-external-exfat" remote="darkinfusion" />
-  <project path="external-connectivity" name="android_external_connectivity" remote="darkinfusion" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="superior" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="superior" />
   <project path="external-mksh" name="android_external_mksh" remote="darkinfusion" />
   <project path="external-fuse" name="android-external_fuse" remote="darkinfusion" />

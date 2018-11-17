@@ -152,7 +152,7 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="superior" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="superior" />
   <project path="external-mksh" name="android_external_mksh" remote="darkinfusion" />
-  <project path="external-fuse" name="android-external_fuse" remote="darkinfusion" />
+  <project path="external/fuse" name="android_external_fuse" remote="superior" />
   <project path="external-e2fsprogs" name="android-external-e2fsprogs" remote="darkinfusion" />
   <project path="external-elfutils" name="android-external-elfutils" remote="darkinfusion" />
   <project path="external/json-c" name="android_external_json-c" remote="superior" />

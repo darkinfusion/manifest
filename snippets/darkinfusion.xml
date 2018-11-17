@@ -74,8 +74,7 @@
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="superior" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="superior" />
  <!-- <project path="packages-apps-Snap" name="android-packages-apps-Snap" remote="darkinfusion" /> -->
-  <project path="packages-providers-AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="darkinfusion" />
-  />
+    <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="superior" />
   
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />

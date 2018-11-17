@@ -41,7 +41,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
   <project path="frameworks/support" name="android_frameworks_support" remote="superior" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
-  <project path="frameworks-opt/net-ims" name="android-frameworks-opt-net-ims" remote="darkinfusion" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="superior" />
    <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="superior" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="superior" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />

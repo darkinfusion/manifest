@@ -179,8 +179,8 @@
  
   <project path="external-zlib" name="android-external-zlib" remote="darkinfusion" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="superior" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="superior" />
 
-	<project path="external-f2fs-tools" name="android_external_f2fs_tools" remote="darkinfusion" />
 	
 	  <!-- Darkinfusion Devices -->
   <project path="device-huawei-angler" name="device-huawei-angler" remote="darkinfusion" />

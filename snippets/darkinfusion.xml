@@ -33,7 +33,7 @@
 	
   <!-- Core Repos -->
   <project path="art" name="art" remote="darkinfusion" />
-  <project path="bootable-recovery" name="bootable_recovery" remote="darkinfusion" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="darkinfusion" />
   <project path="bionic" name="bionic" remote="darkinfusion" />
 
 	<project path="frameworks/av" name="frameworks-av" remote="darkinfusion" />

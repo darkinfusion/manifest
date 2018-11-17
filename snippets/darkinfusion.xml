@@ -60,7 +60,7 @@
   <project path="packages-apps-FMRadio" name="android-packages-apps-FMRadio" remote="darkinfusion" />
   <project path="packages-apps-Launcher3" name="android-packages_apps-Launcher3" remote="darkinfusion" />
   <project path="packages-apps-Settings" name="android_packages_apps_Settings" remote="darkinfusion" />
-  <project path="packages-apps-PackageInstaller" name="android_packages_apps_PackageInstaller" remote="darkinfusion" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="superior" />
   <project path="packages-apps-Stk" name="android-packages-apps_Stk" remote="darkinfusion" />
   <project path="packages-providers-MediaProvider" name="android-packages-providers-MediaProvider" remote="darkinfusion" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />

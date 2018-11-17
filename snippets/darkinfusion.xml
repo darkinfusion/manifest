@@ -26,7 +26,7 @@
   </project>
   <project path="build-kati" name="android-build-kati" remote="darkinfusion" />
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
-  <project path="build-soong" name="android-build-soong" remote="darkinfusion" >
+  <project path="build-soong" name="build-soong" remote="darkinfusion" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>

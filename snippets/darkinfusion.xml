@@ -104,7 +104,7 @@
   
   <!-- Hardware Repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
-  <project path="hardware-custom-telephony" name="android_hardware_custom_telephony" remote="darkinfusion" />
+  <project path="hardware/custom/telephony" name="android_hardware_custom_telephony" remote="superior" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="superior" />
    <project path="hardware/aosp/interfaces" name="android_hardware_aosp_interfaces" remote="superior" />
   <project path="hardware-ril" name="android-hardware-ril" remote="darkinfusion" />

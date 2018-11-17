@@ -95,7 +95,7 @@
   <project path="hardware-libhardware-legacy" name="hardware-libhardware-legacy" remote="darkinfusion" />
    <project path="hardware-aosp-interfaces" name="hardware-aosp-interfaces" remote="darkinfusion" />
   <project path="hardware-ril" name="hardware-ril" remote="darkinfusion" />
- <project path="hardware-qcom-bt" name="hardware-qcom_bt" remote="darkinfusion" />
+ <project path="hardware-qcom-bt" name="hardware-qcom-bt" remote="darkinfusion" />
   <project path="hardware-qcom-wlan" name="hardware-qcom-wlan" remote="darkinfusion" />
 
   <project path="hardware-qcom-camera" name="hardware-qcom-camera" remote="darkinfusion" />

@@ -130,35 +130,35 @@
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
   
   <!-- External Repos -->
-  <project path="external-ant-wireless-ant-native" name="external-ant-wireless-ant-native" remote="darkinfusion" />
-  <project path="external-ant-wireless-ant-service" name="external-ant-wireless-ant-service" remote="darkinfusion" />
-  <project path="external-ant-wireless-antradio-library" name="external-ant-wireless-antradio-library" remote="darkinfusion" />
-  <project path="external-bash" name="external-bash" remote="darkinfusion" />
-  <project path="external-brctl" name="external-brctl" remote="darkinfusion" />
-  <project path="external-exfat" name="external-exfat" remote="darkinfusion" />
-  <project path="external-connectivity" name="external-connectivity" remote="darkinfusion" />
-  <project path="external-libnfc-nxp" name="external-libnfc-nxp" remote="darkinfusion" />
-  <project path="external-mksh" name="external-mksh" remote="darkinfusion" />
-  <project path="external-fuse" name="external-fuse" remote="darkinfusion" />
-  <project path="external-e2fsprogs" name="external-e2fsprogs" remote="darkinfusion" />
-  <project path="external-elfutils" name="external-elfutils" remote="darkinfusion" />
-  <project path="externa-json-c" name="external-json-c" remote="darkinfusion" />
-  <project path="external-libncurses" name="external-libncurses" remote="darkinfusion" />
-  <project path="external-nano" name="external-nano" remote="darkinfusion" />
-  <project path="external-ntfs-3g" name="external-ntfs-3g" remote="darkinfusion" />
-  <project path="external-openssh" name="external-openssh" remote="darkinfusion" />
-  <project path="external-perfetto" name="external-perfetto" remote="darkinfusion" />
-  <project path="external-p7zip" name="external-p7zip" remote="darkinfusion" />
-  <project path="external-pigz" name="external-pigz" remote="darkinfusion" />
-  <project path="external-unrar" name="external-unrar" remote="darkinfusion" />
-  <project path="external-vim" name="external-vim" remote="darkinfusion" />
-  <project path="external-zip" name="external-zip" remote="darkinfusion" />
-  <project path="external-tinycompress" name="external-tinycompress" remote="darkinfusion" />
-  <project path="external-selinux" name="external-selinux" remote="darkinfusion" />
-  <project path="external-toybox" name="external-toybox" remote="darkinfusion" />
-  <project path="external-zlib" name="external-zlib" remote="darkinfusion" />
-  <project path="externa-libtextclassifier" name="external-libtextclassifier" remote="darkinfusion" />
-  <project path="external-f2fs-tools" name="external-f2fs-tools" remote="darkinfusion" />
+  <project path="external/ant-wireless-ant-native" name="external-ant-wireless-ant-native" remote="darkinfusion" />
+  <project path="external/ant-wireless-ant-service" name="external-ant-wireless-ant-service" remote="darkinfusion" />
+  <project path="external/ant-wireless-antradio-library" name="external-ant-wireless-antradio-library" remote="darkinfusion" />
+  <project path="external/bash" name="external-bash" remote="darkinfusion" />
+  <project path="external/brctl" name="external-brctl" remote="darkinfusion" />
+  <project path="external/exfat" name="external-exfat" remote="darkinfusion" />
+  <project path="external/connectivity" name="external-connectivity" remote="darkinfusion" />
+  <project path="external/libnfc-nxp" name="external-libnfc-nxp" remote="darkinfusion" />
+  <project path="external/mksh" name="external-mksh" remote="darkinfusion" />
+  <project path="external/fuse" name="external-fuse" remote="darkinfusion" />
+  <project path="external/e2fsprogs" name="external-e2fsprogs" remote="darkinfusion" />
+  <project path="external/elfutils" name="external-elfutils" remote="darkinfusion" />
+  <project path="externa/json-c" name="external-json-c" remote="darkinfusion" />
+  <project path="external/libncurses" name="external-libncurses" remote="darkinfusion" />
+  <project path="external/nano" name="external-nano" remote="darkinfusion" />
+  <project path="external/ntfs-3g" name="external-ntfs-3g" remote="darkinfusion" />
+  <project path="external/openssh" name="external-openssh" remote="darkinfusion" />
+  <project path="external/perfetto" name="external-perfetto" remote="darkinfusion" />
+  <project path="external/p7zip" name="external-p7zip" remote="darkinfusion" />
+  <project path="external/pigz" name="external-pigz" remote="darkinfusion" />
+  <project path="external/unrar" name="external-unrar" remote="darkinfusion" />
+  <project path="external/vim" name="external-vim" remote="darkinfusion" />
+  <project path="external/zip" name="external-zip" remote="darkinfusion" />
+  <project path="external/tinycompress" name="external-tinycompress" remote="darkinfusion" />
+  <project path="external/selinux" name="external-selinux" remote="darkinfusion" />
+  <project path="external/toybox" name="external-toybox" remote="darkinfusion" />
+  <project path="external/zlib" name="external-zlib" remote="darkinfusion" />
+  <project path="externa/libtextclassifier" name="external-libtextclassifier" remote="darkinfusion" />
+  <project path="external/f2fs-tools" name="external-f2fs-tools" remote="darkinfusion" />
 
 
   

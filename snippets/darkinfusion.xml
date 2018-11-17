@@ -155,7 +155,7 @@
   <project path="external-elfutils" name="android-external-elfutils" remote="darkinfusion" />
   <project path="external/json-c" name="android_external_json-c" remote="superior" />
   <project path="external.libncurses" name="android_external_libncurses" remote="superior" />
-  <project path="external-nano" name="android_external_nano" remote="darkinfusion" />
+ <project path="external/nano" name="android_external_nano" remote="superior" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="superior" />
   <project path="external/openssh" name="android_external_openssh" remote="superior" />
   <project path="external-perfetto" name="android_external_perfetto" remote="darkinfusion" />

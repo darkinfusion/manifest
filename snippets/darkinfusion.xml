@@ -136,7 +136,7 @@
  <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="superior" />
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="superior" />
-  <project path="system/netd" name="androi_-system_netd" remote="superior" />
+  <project path="system/netd" name="android_-system_netd" remote="superior" />
   <project path="system-sepolicy" name="android_system_sepolicy" remote="darkinfusion" />
   <project path="system-vold" name="android_system_vold" remote="darkinfusion" />
   

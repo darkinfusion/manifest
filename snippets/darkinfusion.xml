@@ -158,8 +158,9 @@
  <project path="external/nano" name="android_external_nano" remote="superior" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="superior" />
   <project path="external/openssh" name="android_external_openssh" remote="superior" />
-  <project path="external-perfetto" name="android_external_perfetto" remote="darkinfusion" />
-  <project path="external/p7zip" name="android_external_p7zip" remote="superior" />
+  <project path="external/perfetto" name="android_external_perfetto" remote="superior" />
+
+	<project path="external/p7zip" name="android_external_p7zip" remote="superior" />
   <project path="external/pigz" name="android_external_pigz" remote="superior" />
 
 	<project path="external-unrar" name="android_external_unrar" remote="darkinfusion" />

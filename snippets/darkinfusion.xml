@@ -101,8 +101,8 @@
   <project path="hardware-qcom-camera" name="hardware-qcom-camera" remote="darkinfusion" />
   <project path="hardware-qcom-bootctrl" name="hardware_qcom_bootctrl" remote="darkinfusion" />
 
-  <project path="hardwar-qcom-gps" name="android-hardware-qcom-gps" remote="darkinfusion" />
-  <project path="hardware-qcom-keymaster" name="android-hardware-qcom-keymaster" remote="darkinfusion" />
+  <project path="hardwar-qcom-gps" name="hardware-qcom-gps" remote="darkinfusion" />
+  <project path="hardware-qcom-keymaster" name="hardware-qcom-keymaster" remote="darkinfusion" />
   <project path="hardware-libhardware" name="hardware-libhardware" remote="darkinfusion" />
   <project path="hardware-qcom-vr" name="hardware-qcom_vr" remote="darkinfusion" />
 
@@ -126,39 +126,39 @@
   <project path="system-vold" name="system-vold" remote="darkinfusion" />
   
     <!-- Prebuilts -->
-   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="darkinfusion" clone-depth="1" />
+   <project path="prebuilts-build-tools" name="prebuilts-build-tools" remote="darkinfusion" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
   
   <!-- External Repos -->
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="darkinfusion" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="darkinfusion" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="darkinfusion" />
-  <project path="external/bash" name="android_external_bash" remote="darkinfusion" />
-  <project path="external/brctl" name="android_external_brctl" remote="darkinfusion" />
-  <project path="external/exfat" name="android_external_exfat" remote="darkinfusion" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="darkinfusion" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="darkinfusion" />
-  <project path="external/mksh" name="android_external_mksh" remote="darkinfusion" />
-  <project path="external/fuse" name="android_external_fuse" remote="darkinfusion" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="darkinfusion" />
-  <project path="external/elfutils" name="android_external_elfutils" remote="darkinfusion" />
-  <project path="external/json-c" name="android_external_json-c" remote="darkinfusion" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="darkinfusion" />
-  <project path="external/nano" name="android_external_nano" remote="darkinfusion" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="darkinfusion" />
-  <project path="external/openssh" name="android_external_openssh" remote="darkinfusion" />
-  <project path="external/perfetto" name="android_external_perfetto" remote="darkinfusion" />
-  <project path="external/p7zip" name="android_external_p7zip" remote="darkinfusion" />
-  <project path="external/pigz" name="android_external_pigz" remote="darkinfusion" />
-  <project path="external/unrar" name="android_external_unrar" remote="darkinfusion" />
-  <project path="external/vim" name="android_external_vim" remote="darkinfusion" />
-  <project path="external/zip" name="android_external_zip" remote="darkinfusion" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="darkinfusion" />
-  <project path="external/selinux" name="android_external_selinux" remote="darkinfusion" />
-  <project path="external/toybox" name="android_external_toybox" remote="darkinfusion" />
-  <project path="external/zlib" name="android_external_zlib" remote="darkinfusion" />
-  <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="darkinfusion" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="darkinfusion" />
+  <project path="external-ant-wireless-ant-native" name="android-external-ant-wireless-ant-native" remote="darkinfusion" />
+  <project path="external-ant-wireless-ant-service" name="android-external-ant-wireless-ant-service" remote="darkinfusion" />
+  <project path="external-ant-wireless-antradio-library" name="android_external_ant-wireless_antradio-library" remote="darkinfusion" />
+  <project path="external-bash" name="external-bash" remote="darkinfusion" />
+  <project path="external-brctl" name="external-brctl" remote="darkinfusion" />
+  <project path="external-exfat" name="external-exfat" remote="darkinfusion" />
+  <project path="external-connectivity" name="external-connectivity" remote="darkinfusion" />
+  <project path="external-libnfc-nxp" name="external-libnfc-nxp" remote="darkinfusion" />
+  <project path="external-mksh" name="external-mksh" remote="darkinfusion" />
+  <project path="external-fuse" name="external-fuse" remote="darkinfusion" />
+  <project path="external-e2fsprogs" name="external-e2fsprogs" remote="darkinfusion" />
+  <project path="external-elfutils" name="external-elfutils" remote="darkinfusion" />
+  <project path="externa-json-c" name="external-json-c" remote="darkinfusion" />
+  <project path="external-libncurses" name="external-libncurses" remote="darkinfusion" />
+  <project path="external-nano" name="external-nano" remote="darkinfusion" />
+  <project path="external-ntfs-3g" name="external-ntfs-3g" remote="darkinfusion" />
+  <project path="external-openssh" name="external-openssh" remote="darkinfusion" />
+  <project path="external-perfetto" name="external-perfetto" remote="darkinfusion" />
+  <project path="external-p7zip" name="external-p7zip" remote="darkinfusion" />
+  <project path="external-pigz" name="external-pigz" remote="darkinfusion" />
+  <project path="external-unrar" name="external-unrar" remote="darkinfusion" />
+  <project path="external-vim" name="external-vim" remote="darkinfusion" />
+  <project path="external-zip" name="external-zip" remote="darkinfusion" />
+  <project path="external-tinycompress" name="external-tinycompress" remote="darkinfusion" />
+  <project path="external-selinux" name="external-selinux" remote="darkinfusion" />
+  <project path="external-toybox" name="external-toybox" remote="darkinfusion" />
+  <project path="external-zlib" name="external-zlib" remote="darkinfusion" />
+  <project path="externa-libtextclassifier" name="external-libtextclassifier" remote="darkinfusion" />
+  <project path="external-f2fs-tools" name="external-f2fs-tools" remote="darkinfusion" />
 
 
   
@@ -169,16 +169,16 @@
   <project path="vendor-huawei" name="vendor-huawei" remote="darkinfusion" />
 	
  <!-- Qcom Vendor Repos -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="darkinfusion" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="darkinfusion" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="darkinfusion" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  <project path="vendor-codeaurora-telephony" name="vendor-codeaurora-telephony" remote="darkinfusion" />
+  <project path="vendor-qcom-opensource-audio" name="vendor-qcom-opensource-audio" remote="darkinfusion" />
+  <project path="vendor-qcom-opensource-interfaces" name="vendor-qcom-opensource-interfaces" remote="darkinfusion" >
+    <copyfile dest="vendor-qcom-opensource-Android.bp" src="os_pickup.bp"/>
   </project>
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="darkinfusion" />
-  <project path="vendor/nxp/interfaces/opensource/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="darkinfusion">
-    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+  <project path="vendor-qcom-opensource-dataservices" name="vendor-qcom-opensource-dataservices" remote="darkinfusion" />
+  <project path="vendor-nxp-interfaces-opensource-nfc" name="vendor-nxp-interfaces-opensource-nfc" remote="darkinfusion">
+    <linkfile dest="vendor-nxp-interfaces-Android.bp" src="prop-pickup.bp"/>
   </project>
-  <project path="vendor/nxp/opensource/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="darkinfusion" />
-  <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="darkinfusion" />
-  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="darkinfusion" />
+  <project path="vendor-nx--opensource-external-libnfc-nci" name="vendor-nxp-opensource-external-libnfc-nci" remote="darkinfusion" />
+  <project path="vendor-nxp-opensource-frameworks" name="vendor-nxp-opensource-frameworks" remote="darkinfusion" />
+  <project path="vendor-nxp-opensource-packages-apps-Nfc" name="vendor-nxp-opensource-packages-apps-Nfc" remote="darkinfusion" />
 </manifest> 

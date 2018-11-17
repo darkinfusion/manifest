@@ -24,7 +24,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build-kati" name="android-build-kati" remote="darkinfusion" />
+  <project path="build-kati" name="build-kati" remote="darkinfusion" />
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
   <project path="build-soong" name="build-soong" remote="darkinfusion" >
     <linkfile src="root.bp" dest="Android.bp" />

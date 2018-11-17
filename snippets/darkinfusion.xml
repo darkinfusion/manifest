@@ -32,7 +32,7 @@
   </project>
 	
   <!-- Core Repos -->
-  <project path="art" name="android_art" remote="darkinfusion" />
+  <project path="art" name="android_art" remote="superior" />
   <project path="bionic" name="android_bionic" remote="darkinfusion" />
   <project path="bootable-recovery" name="android-bootable-recovery" remote="darkinfusion" />
   <project path="frameworks-av" name="android-frameworks-av" remote="darkinfusion" />

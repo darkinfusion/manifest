@@ -163,7 +163,7 @@
   <project path="external-perfetto" name="android_external_perfetto" remote="darkinfusion" />
   <project path="external/p7zip" name="android_external_p7zip" remote="superior" />
   <project path="external-pigz" name="android-external-pigz" remote="darkinfusion" />
-  <project path="external-unrar" name="android-external-unrar" remote="darkinfusion" />
+  <project path="external-unrar" name="android_external_unrar" remote="darkinfusion" />
   <project path="external-vim" name="android_external_vim" remote="darkinfusion" />
   <project path="external-zip" name="android_external_zip" remote="darkinfusion" />
   <project path="external-tinycompress" name="android_external_tinycompress" remote="darkinfusion" />

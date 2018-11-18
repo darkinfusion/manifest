@@ -60,32 +60,32 @@
  
   <!-- Packages Repos -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
-  <project path="packages/apps-Camera2" name="packages-apps-Camera2" remote="darkinfusion" />
+  <project path="packages/apps/Camera2" name="packages-apps-Camera2" remote="darkinfusion" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="superior" />	
-  <project path="packages/apps-DeskClock" name="packages-apps-DeskClock" remote="darkinfusion" />
-  <project path="packages/apps-DocumentsUI" name="packages-apps-DocumentsUI" remote="darkinfusion" />
+  <project path="packages/apps/DeskClock" name="packages-apps-DeskClock" remote="darkinfusion" />
+  <project path="packages/apps/DocumentsUI" name="packages-apps-DocumentsUI" remote="darkinfusion" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="superior" />
-  <project path="packages/apps-ExactCalculator" name="packages-apps-ExactCalculator" remote="darkinfusion" />
-  <project path="packages/apps-Gallery2" name="packages-apps-Gallery2" remote="darkinfusion" />
-  <project path="packages/apps-Messaging" name="packages-apps-Messaging" remote="darkinfusion" />
-  <project path="packages/apps-FMRadio" name="packages-apps-FMRadio" remote="darkinfusion" />
-  <project path="packages/apps-Launcher3" name="packages-apps-Launcher3" remote="darkinfusion" />
-  <project path="packages/apps-Settings" name="packages-apps-Settings" remote="darkinfusion" />
-  <project path="packages/apps-PackageInstaller" name="packages-apps-PackageInstaller" remote="darkinfusion" />
-  <project path="packages/apps-Stk" name="packages-apps-Stk" remote="darkinfusion" />
-  <project path="packages/providers-MediaProvider" name="packages-providers-MediaProvider" remote="darkinfusion" />
-  <project path="packages/providers-DownloadProvider" name="packages-providers-DownloadProvider" remote="darkinfusion" />
-  <project path="packages/services-Telephony" name="packages-services-Telephony" remote="darkinfusion" />
-  <project path="packages/services-Telecomm" name="packages-services-Telecomm" remote="darkinfusion" />
-  <project path="packages/apps-Nfc" name="packages-apps-Nfc" remote="darkinfusion" />
-  <project path="packages/resources-devicesettings" name="packages-resources-devicesettings" remote="darkinfusion" />
+  <project path="packages/apps/ExactCalculator" name="packages-apps-ExactCalculator" remote="darkinfusion" />
+  <project path="packages/apps/Gallery2" name="packages-apps-Gallery2" remote="darkinfusion" />
+  <project path="packages/apps/Messaging" name="packages-apps-Messaging" remote="darkinfusion" />
+  <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" remote="darkinfusion" />
+  <project path="packages/apps/Launcher3" name="packages-apps-Launcher3" remote="darkinfusion" />
+  <project path="packages/apps/Settings" name="packages-apps-Settings" remote="darkinfusion" />
+  <project path="packages/apps/PackageInstaller" name="packages-apps-PackageInstaller" remote="darkinfusion" />
+  <project path="packages/apps/Stk" name="packages-apps-Stk" remote="darkinfusion" />
+  <project path="packages/providers/MediaProvider" name="packages-providers-MediaProvider" remote="darkinfusion" />
+  <project path="packages/providers/DownloadProvider" name="packages-providers-DownloadProvider" remote="darkinfusion" />
+  <project path="packages/services/Telephony" name="packages-services-Telephony" remote="darkinfusion" />
+  <project path="packages/services/Telecomm" name="packages-services-Telecomm" remote="darkinfusion" />
+  <project path="packages/apps/Nfc" name="packages-apps-Nfc" remote="darkinfusion" />
+  <project path="packages/resources/devicesettings" name="packages-resources-devicesettings" remote="darkinfusion" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
-  <project path="packages/apps-SettingsIntelligence" name="packages-apps-SettingsIntelligence" remote="darkinfusion" />
-  <project path="packages/inputmethods-LatinIME" name="packages-inputmethods-LatinIME" remote="darkinfusion" />
-  <project path="packages/apps-Terminal" name="packages-apps-Terminal" remote="darkinfusion" />
-  <project path="packages/apps-Recorder" name="packages-apps-Recorder" remote="darkinfusion" />
+  <project path="packages/apps/SettingsIntelligence" name="packages-apps-SettingsIntelligence" remote="darkinfusion" />
+  <project path="packages/inputmethods/LatinIME" name="packages-inputmethods-LatinIME" remote="darkinfusion" />
+  <project path="packages/apps/Terminal" name="packages-apps-Terminal" remote="darkinfusion" />
+  <project path="packages/apps/Recorder" name="packages-apps-Recorder" remote="darkinfusion" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="superior" />
-  <project path="packages/providers-AmbientPlayHistoryProvider" name="packages-providers-AmbientPlayHistoryProvider" remote="darkinfusion" />
+  <project path="packages/providers/AmbientPlayHistoryProvider" name="packages-providers-AmbientPlayHistoryProvider" remote="darkinfusion" />
   <project path="packages/apps/SuperiorWalls" name="packages_apps_SuperiorWallpapers" remote="superior" />
 
   

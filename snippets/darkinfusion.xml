@@ -35,16 +35,15 @@
   <project path="art" name="art" remote="darkinfusion" />
   <project path="bootable/recovery" name="bootable_recovery" remote="darkinfusion" />
   <project path="bionic" name="bionic" remote="darkinfusion" />
-
-	<project path="frameworks/av" name="frameworks-av" remote="darkinfusion" />
+  <project path="frameworks/av" name="frameworks-av" remote="darkinfusion" />
   <project path="frameworks/base" name="frameworks-base" remote="darkinfusion" />
   <project path="frameworks/compile/mclinker" name="frameworks-compile-mclinker" remote="darkinfusion" />
-
   <project path="frameworks/native" name="frameworks-native" remote="darkinfusion" />
   <project path="frameworks/support" name="frameworks-support" remote="darkinfusion" />
   <project path="frameworks/opt/net/wifi" name="frameworks-opt-net-wifi" remote="darkinfusion" />
   <project path="frameworks/opt/net/ims" name="frameworks-opt-net-ims" remote="darkinfusion" />
    <project path="frameworks/opt/net/voip" name="frameworks-opt-net-voip" remote="darkinfusion" />
+  <project path="frameworks/aoscp" name="android_frameworks_aoscp" remote="superior" />
   <project path="frameworks/opt/telephony" name="frameworks-opt-telephony" remote="darkinfusion" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
 

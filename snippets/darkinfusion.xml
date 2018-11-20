@@ -13,9 +13,7 @@
            fetch="https://github.com/SuperiorOS"
            revision="refs/heads/pie" />
 	
-	  <remote name="gitlab"
-          fetch="https://gitlab.com/sweeto143"
-          revision="pie" />
+	 
 		   
 
   <project path="manifest" name="manifest" remote="darkinfusion" />
@@ -51,7 +49,7 @@
   <project path="frameworks/aoscp" name="android_frameworks_aoscp" remote="superior" />
   <project path="frameworks/opt/telephony" name="frameworks-opt-telephony" remote="darkinfusion" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="gitlab" clone-depth="1" />
+  
   
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device-qcom-sepolicy" remote="darkinfusion" />

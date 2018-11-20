@@ -41,7 +41,7 @@
   <project path="frameworks/native" name="frameworks-native" remote="darkinfusion" />
   <project path="frameworks/support" name="frameworks-support" remote="darkinfusion" />
   <!--<project path="frameworks/opt/net/wifi" name="frameworks-opt-net-wifi" remote="darkinfusion" />-->
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="superior" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
   <project path="frameworks/opt/net/ims" name="frameworks-opt-net-ims" remote="darkinfusion" />
    <project path="frameworks/opt/net/voip" name="frameworks-opt-net-voip" remote="darkinfusion" />
   <project path="frameworks/aoscp" name="android_frameworks_aoscp" remote="superior" />

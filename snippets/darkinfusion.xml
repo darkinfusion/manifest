@@ -126,8 +126,8 @@
   <project path="system/vold" name="system-vold" remote="darkinfusion" />
   
     <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="superior" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
 
   <!-- External Repos -->
   <project path="external/ant-wireless-ant-native" name="external-ant-wireless-ant-native" remote="darkinfusion" />
